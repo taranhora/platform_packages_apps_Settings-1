@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2008 The Android Open Source Project
+<!--
+     Copyright (C) 2019 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +15,10 @@
      limitations under the License.
 -->
 
-<level-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:maxLevel="0" android:drawable="@drawable/ic_network_signal_0" />
-    <item android:maxLevel="1" android:drawable="@drawable/ic_network_signal_1" />
-    <item android:maxLevel="2" android:drawable="@drawable/ic_network_signal_2" />
-    <item android:maxLevel="3" android:drawable="@drawable/ic_network_signal_3" />
-    <item android:maxLevel="4" android:drawable="@drawable/ic_network_signal_4" />
-</level-list>
-
+<CheckBox
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/button_app_lock"
+    android:background="@null"/>
